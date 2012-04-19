@@ -8,13 +8,9 @@ Android NDK - это можно сказать прослойка между Jav
 Приступим к разработке. Для начала инструкция по установке necessitas
 
 Настройка necessitas под ОС Windows
-1. Скачать и установить MinGW c MSYS http://sourceforge.net/projects/mingw/files/Automated%20MinGW%20Installer/mingw-get-inst/mingw-get-inst-20110530/
-2. скачать и установить Necessitas http://sourceforge.net/projects/necessitas/files/
+1 Распаковать Necessitas.7z в C:\
 3. В переменную окружения PATH добавить пути:
-MinGW/bin (c:\MinGW\bin)
-MinGW/msys/bin (c:\MinGW\msys\1.0\bin)
 necessitas/Android/Qt/4762/armeabi/bin/
-4. Скачать и распаковать ant http://ant.apache.org/bindownload.cgi  В переменную окружения PATH добавить путь (c:\ant\bin)
 5. Скачать и установить Java jdk http://www.oracle.com/technetwork/java/javase/downloads/jdk-6u26-download-400750.html
 6. После установки java его нужно пропачить, что под этим подразумевается :
 6.1. в переменные окружения добавить JAVA_HOME и прописать путь к jdk/bin ( c:\Program Files\Java\jdk1.6.0_25\bin\ ). 
